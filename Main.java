@@ -16,6 +16,9 @@ public class Main {
 
         System.out.print("학교를 입력하세요: ");
         String sch = sc.nextLine();
+        
+        System.out.print("학년을 입력하세요: ");
+        int grade = sc.nextInt();
 
         //한 줄 엔터
         System.out.println();
@@ -24,6 +27,7 @@ public class Main {
         System.out.println("학번: " + id);
         System.out.println("학과: " + dep);
         System.out.println("학교: " + sch);
+        System.out.println("학년: " + grade);
 
         sc.close();
     }
